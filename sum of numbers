@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int N, S=0, T=0;
+	cout<<"este programa suma desde cero hasta el numero que le des"<<endl;
+	cout<<"dame el numero"<<endl;
+	cin>>N;
+	do
+	{
+		S = S + 1;
+		T = S + T;
+	}while( S < N);
+	cout<<"el resultado es: "<<T<<endl;
+}
